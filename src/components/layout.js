@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
           siteTitle={data.site.siteMetadata?.title || `Title`}
           topImg={data.profileTopImage.childImageSharp.fixed}
         />
-        <section className="h-4/5 px-12 py-12 ">{children}</section>
+        {children}
         <Footer />
       </div>
     </div>

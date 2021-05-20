@@ -28,7 +28,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/gatsby/`,
+        start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
@@ -41,5 +41,13 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
     `gatsby-remark-line-breaks`,
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -75,
+        duration:1000,
+
+      }
+    },
   ],
 }
