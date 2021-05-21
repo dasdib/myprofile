@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="flex justify-center">
-      <div className="flex flex-col w-full bg-gradient-to-r from-gray-200 via-white to-white">
+      <div className="flex flex-col w-full ">
         <Header
           siteTitle={data.site.siteMetadata?.title || `Title`}
           topImg={data.profileTopImage.childImageSharp.fixed}
