@@ -1,10 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Img from "gatsby-image"
 const Header = ({ siteTitle, topImg }) => (
-  <header className="flex px-12 bg-white shadow-lg sticky top-0 z-50">
+  <header className="flex px-12 bg-white shadow-md sticky top-0 z-50">
     <div class="flex-initial self-center">
       <Img
         fixed={topImg}
@@ -21,13 +21,28 @@ const Header = ({ siteTitle, topImg }) => (
           <AnchorLink to="/#home" title="Home" className="stripped" stripHash />
         </li>
         <li className="flex-initial">
-          <AnchorLink to="/#about" title="About Me" className="stripped" stripHash />
+          <AnchorLink
+            to="/#about"
+            title="About Me"
+            className="stripped"
+            stripHash
+          />
         </li>
         <li className="flex-initial">
-          <AnchorLink to="/#experience" title="Experience" className="stripped" stripHash />
+          <AnchorLink
+            to="/#experience"
+            title="Experience"
+            className="stripped"
+            stripHash
+          />
         </li>
         <li className="flex-initial">
-          <AnchorLink to="/#contact" title="Contact" className="stripped" stripHash />
+          <AnchorLink
+            to="/#contact"
+            title="Contact"
+            className="stripped"
+            stripHash
+          />
         </li>
       </ul>
     </div>

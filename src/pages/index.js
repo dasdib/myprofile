@@ -11,10 +11,10 @@ const IndexPage = ({ data }) => (
   <Layout>
     <section
       id="home"
-      className="h-4/5 px-12 bg-gradient-to-r from-gray-200 via-white to-white border-b-8 border-gray-200"
+      className="h-4/5 px-12 bg-gradient-to-t from-gray-200 via-white to-white border-b-8 border-gray-100"
     >
       <div class="min-h-screen flex flex-col pb-6 sm:pb-6">
-        <div class="px-4 py-5 bg-white shadow-lg sm:rounded-b-3xl sm:p-5">
+        <div class="px-4 py-5 bg-white shadow-top-white sm:rounded-b-3xl sm:p-5">
           <div className="flex">
             <div className="flex-1 px-10 py-14 sm:py-14 sm:px-10 ">
               <h1 className="text-5xl pb-4">Hi there! I am </h1>
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section
       id="about"
-      className="h-4/5 px-12 py-12 bg-gradient-to-r from-white via-white to-gray-200"
+      className="h-4/5 px-12 py-12 bg-gradient-to-r from-white via-white to-gray-200 border-b-8 border-gray-100"
     >
       <div className="flex">
         <div className="flex-w-65 px-12 sm:px-12 ">
@@ -82,7 +82,7 @@ const IndexPage = ({ data }) => (
             <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
               <div class="max-w-md mx-auto">
                 <h1 className="text-3xl text-center">Area of interest</h1>
-                <ul class="list-disc space-y-2">
+                <ul class="list-disc space-y-2 py-8">
                   <li class="flex items-start">
                     <span class="h-6 flex items-center sm:h-7">
                       <svg
@@ -155,7 +155,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section
       id="experience"
-      className="h-4/5 px-12 pb-12 pt-20 bg-gradient-to-r from-gray-200 via-white to-white"
+      className="h-4/5 px-12 pb-12 pt-20 bg-gradient-to-r from-gray-200 via-white to-white border-b-8 border-gray-100"
     >
       <h1 className="text-5xl">Experince</h1>
       <p>
@@ -215,7 +215,7 @@ const IndexPage = ({ data }) => (
     </section>
     <section
       id="contact"
-      className="h-4/5 px-12 py-12 bg-gradient-to-r from-white via-white to-gray-200"
+      className="h-4/5 px-12 py-12 bg-gradient-to-r from-white via-white to-gray-200 border-b-8 border-gray-100"
     >
       <h1 className="text-5xl">Contact</h1>
       <p>
