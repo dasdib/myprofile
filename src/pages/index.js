@@ -11,9 +11,9 @@ const IndexPage = ({ data }) => (
   <Layout>
     <section
       id="home"
-      className="h-4/5 px-12 pb-12 sm:pb-12 bg-gradient-to-r from-gray-200 via-white to-white border-b-8 border-gray-200"
+      className="h-4/5 px-12 bg-gradient-to-r from-gray-200 via-white to-white border-b-8 border-gray-200"
     >
-      <div class="min-h-screen flex flex-col ">
+      <div class="min-h-screen flex flex-col pb-6 sm:pb-6">
         <div class="px-4 py-5 bg-white shadow-lg sm:rounded-b-3xl sm:p-5">
           <div className="flex">
             <div className="flex-1 px-10 py-14 sm:py-14 sm:px-10 ">
@@ -49,7 +49,7 @@ const IndexPage = ({ data }) => (
       className="h-4/5 px-12 py-12 bg-gradient-to-r from-white via-white to-gray-200"
     >
       <div className="flex">
-        <div className="flex-1 px-12 sm:px-12 ">
+        <div className="flex-w-65 px-12 sm:px-12 ">
           <h1 className="text-5xl">About Me</h1>
           <p className="pt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras congue
@@ -76,7 +76,81 @@ const IndexPage = ({ data }) => (
             amet eleifend volutpat. Aenean eleifend velit nec dapibus ornare.
           </p>
         </div>
-        <div className="flex-1 text-left"></div>
+        <div className="flex-w-35 ">
+          <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+            <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+              <div class="max-w-md mx-auto">
+                <h1 className="text-3xl text-center">Area of interest</h1>
+                <ul class="list-disc space-y-2">
+                  <li class="flex items-start">
+                    <span class="h-6 flex items-center sm:h-7">
+                      <svg
+                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <p class="ml-2">
+                      Customizing your
+                      <code class="text-sm font-bold text-gray-900">
+                        tailwind.config.js
+                      </code>{" "}
+                      file
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="h-6 flex items-center sm:h-7">
+                      <svg
+                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <p class="ml-2">
+                      Extracting classes with
+                      <code class="text-sm font-bold text-gray-900">
+                        @apply
+                      </code>
+                    </p>
+                  </li>
+                  <li class="flex items-start">
+                    <span class="h-6 flex items-center sm:h-7">
+                      <svg
+                        class="flex-shrink-0 h-5 w-5 text-cyan-500"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <p class="ml-2">Code completion with instant preview</p>
+                  </li>
+                </ul>
+                <p>
+                  Perfect for learning how the framework works, prototyping a
+                  new idea, or creating a demo to share online.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section
